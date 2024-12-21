@@ -1,4 +1,7 @@
 ﻿import "../footer/Footer.css";
+import vk from "../../img/svg/vk.svg";
+import odnokl from "../../img/svg/odnokl.svg";
+import hhh from "../../img/svg/hhh.svg";
 
 export const Footer = () => {
     return (
@@ -30,7 +33,7 @@ export const Footer = () => {
                                             className="footer__icon"
                                         />
                                         <a
-                                            href="https://www.facebook.com"
+                                            href="https://vk.com"
                                             className="footer__link"
                                         >
                                             Вконтакте
@@ -40,30 +43,30 @@ export const Footer = () => {
                                 <li className="footer__item">
                                     <div className="footer__social">
                                         <img
-                                            src={twitter}
-                                            alt="Twitter"
+                                            src={odnokl}
+                                            alt="odnokl"
                                             className="footer__icon"
                                         />
                                         <a
-                                            href="https://www.twitter.com"
+                                            href="https://ok.ru/"
                                             className="footer__link"
                                         >
-                                            Twitter
+                                            Однокласники
                                         </a>
                                     </div>
                                 </li>
                                 <li className="footer__item">
                                     <div className="footer__social">
                                         <img
-                                            src={instagram}
-                                            alt="Instagram"
+                                            src={hhh}
+                                            alt="hhh"
                                             className="footer__icon"
                                         />
                                         <a
-                                            href="https://www.instagram.com"
+                                            href="https://hoff.ru/"
                                             className="footer__link"
                                         >
-                                            Instagram
+                                            Hoff
                                         </a>
                                     </div>
                                 </li>

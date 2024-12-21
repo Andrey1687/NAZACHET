@@ -1,5 +1,9 @@
+import services from "../../../img/services__image.png";
+import delivery from "../../../img/svg/delivery.svg";
+import customer from "../../../img/svg/customer.svg";
+import returns from "../../../img/svg/returns.svg";
+import price from "../../../img/svg/price.svg";
 import "./AboutUs.css";
-
 export const AboutUs = () => {
     return (
         <div className="about">

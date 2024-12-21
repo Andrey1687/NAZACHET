@@ -1,5 +1,8 @@
-import React from "react";
-
+﻿import React from "react";
+import Upin from "../../../img/svg/upin.svg";
+import Ibuk from "../../../img/svg/ibuk.svg";
+import Mpok from "../../../img/svg/mpok.svg";
+import star from "../../../img/svg/star.svg";
 export const Home = () => {
     return (
         <div className="home">
